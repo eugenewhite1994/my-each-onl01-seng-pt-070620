@@ -1,5 +1,8 @@
-def my_each(collections)
-  collection = [1,2,3,4]
-  while collection < 5
-  yield(collection)
+def my_each(arr)
+  i = 0
+  while i < arr.length
+    yield(arr[i])
+    i += 1
+  end
+  arr
 end
