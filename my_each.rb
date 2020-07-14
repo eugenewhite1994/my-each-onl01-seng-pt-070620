@@ -1,4 +1,5 @@
 def my_each(collections)
   collection = [1,2,3,4]
-  yield(collection) + 1
+  while collection < 5
+  yield(collection)
 end
