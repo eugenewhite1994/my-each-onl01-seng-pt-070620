@@ -1,4 +1,5 @@
-def my_each # put argument(s) here
+def my_each(collections)
   collection = [1,2,3,4]
-  my_each(collection)
+  yield(collection) + 1 
+  puts 1
 end
